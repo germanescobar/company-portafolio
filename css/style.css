@@ -47,7 +47,7 @@ section h2 {
 #home {
   color: white;
   text-align: center;
-  padding: 200px 0 250px;
+  padding: 200px 0 150px;
 }
 #home h1 {
   font-size: 68px;
@@ -65,6 +65,29 @@ section h2 {
   color: whitesmoke;
   font-size: 24px;
   padding: 40px 20px 0;
+}
+#home .social {
+  margin-top: 80px;
+}
+#home .social a {
+  display: inline-block;
+  color: white;
+  border-radius: 50%;
+  background-color: #222;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+#home .social a:hover, 
+#home .social a:focus, 
+#home .social a:active {
+  background-color: #fed136; 
 }
 
 #servicios .box {
